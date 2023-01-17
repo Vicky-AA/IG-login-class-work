@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>www.Instagram.com</title>
+        <style>
+            form{
+                position:relative;
+                top:30%;
+                left:50%;
+                margin-bottom:10px;
+            }
+            .email{
+                width:350px;
+                height:40px;
+                margin-right:100px;
+                margin-bottom:12px;
+                border:none;
+            }
+            .password{
+                width:100%;
+                height:40px;
+                border:none;
+            }
+            h3{
+                position: relative;
+                left:55%;
+                font-family:Bilabong;
+                font-size:60px;
+                font-weight:normal;
+            }
+            @font-face {
+                font-family:Bilabong;
+                src: url(FontBila.ttf);
+            }
+            button{
+                margin-top:20px;
+                width: 350px;;
+                height:45px;
+                border-radius:6px;
+                position:relative;
+                top:45%;
+                left:50%;
+                background-color: rgb(26, 57, 236);
+                color:white;
+                font-size: medium;
+                font-weight: bold;
+            }
+            p{
+                position:relative;
+                left:54%;
+                top:58%;
+                width:100%;
+            }
+            .face{
+                position:relative;
+                left:54%;
+                top:68%;
+                width:100%;
+                margin-top:20px;
+                margin-left:40px;
+            }
+            .design{
+                position:relative;
+                left:55%;
+                top:63%;
+                width:100%; 
+                margin-top:20px;
+                margin-left:70px;
+            }
+            img{
+                height:550px;
+                position:absolute;
+                left:150px;
+                top:50px;
+            }
+            @media only screen and (max-width:700px){
+                img{
+                    display:none;
+                }
+                #right{
+                    font-size:10vw;
+                }
+                p{
+                    position:relative;
+                    left:54%;
+                    top:58%;
+                }
+                #all{
+                    margin:auto;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0; 
+                    right: 0;
+                    top:0;
+                    max-width:600px;
+                    display:contents;
+                    text-align:center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all">
+            <div id="right">
+                <h3>Instagram</h3>
+                <form>
+                    <input type="username" class="email" placeholder="Phone number,email or username"><br>
+                    <input type="password" class="password" placeholder="Password"><br>
+                </form>
+                <a href="wwww.instagram.com" target="">
+                    <button>Log in</button>
+                </a>
+                <p>Forgot your login details? <a href="">Get help logging in</a></p>
+                <p class="design"> OR</p>
+                <p class="face"><a href="www.facebook.com">Log in with Facebook</a></p>
+            </div>
+            <div id="left">
+                <img src="phone.png">
+            </div>  
+          </div>
+    </body>
+</html>
